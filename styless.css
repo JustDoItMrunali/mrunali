@@ -113,7 +113,7 @@ header .logo{
     background-color: #fae2ff; /* Example background color */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    width: 100%; /* Set initial width to 100% */
     margin-top: 80px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 
@@ -1044,6 +1044,261 @@ text-decoration: underline;}
                 border-radius: 20px;
   
 margin-left: 50px;         }
+             
+              .copy h3{
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 40px;
+              }
+              .copy #h5{
+                font-weight: bold;
+                font-size: 20px;
+                text-align: left;
+                margin-left: 10px;
+                margin-top: 80px;
+                text-align: left;
+              }
+              .copy p{
+                font-size: 15px;
+                text-align: left;
+                margin-left: 10px;
+                text-align: left;
+              }
+              .copy #p{
+                font-size: 15px;
+margin-left: 50px;
+              }
+              .copy img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+             margin-left: 100px;
+             margin-top: 50px;
+             }
+             header .icons a{
+                font-size: 14px;
+                color: #333;
+                margin-right: 3px;
+             
+            }
+            header .logo{
+                font-size: 20px;
+                color: #333;
+                font-weight: bolder;
+                text-align: left;
+            }
+            
+            
+            
+}
+
+
+@media(max-width:390px){
+
+    header .fa-bars{
+        display: block;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        background: #fff;
+        border-top: .1rem solid black;
+        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0) ;
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%) ;
+
+    }
+
+    header .navbar  a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgb(0,0,0,.1);
+        display: block;
+        font-size: 10px;
+    }
+    header .navbar  .logo{
+        
+        font-size: 10px;
+    }
+   
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 3.5rem;
+    }
+    .home .content p{
+        font-size: 2.5rem;
+    }
+
+    .icons-container.icons h3{
+    
+        font-size: 1rem;
+        
+         }
+         .icons-container.icons span{
+            font-size: 2rem;
+            
+             }
+        
+             .secondary-navbar {
+                padding: 1rem; 
+                height: auto; 
+                justify-content: flex-start; /* Align items to the start */
+                margin-top: 90px;
+            }
+            .secondary-navbar img{
+                height: 40px;
+                width: 40px;
+            }
+            .secondary-navbar input[type="text"] {
+                width: 30%; /* Adjust width */
+                margin-left: 1rem; /* Adjust margin */
+            }
+        
+            .secondary-navbar button {
+                margin-left: 0.5rem; /* Adjust margin */
+            }
+        
+            .secondary-navbar .social-icons {
+                margin-left: 5px;
+                font-size: 15px; }
+            .cake1 {
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 6px; /* Adjust left margin */
+            }
+            .cake1 #h1{
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            .cake1 .divCat1 {
+                display: flex;
+                flex-direction: column; /* Align items vertically */
+                height: auto; /* Adjust height */
+                width: 200px; /* Adjust width */
+                margin-left: auto; /* Center horizontally */
+                margin-right: auto; /* Center horizontally */
+                margin-bottom: 20px; /* Add bottom margin for spacing */
+                align-items: center; 
+            }
+            .divCat1 figcaption {
+                text-align: center; /* Center text */
+                margin-top: 10px; /* Add top margin for spacing */
+            }
+            .divCat1 img {
+                margin-top: 0; /* Reset top margin */
+                margin-bottom: 10px; /* Add bottom margin for spacing */
+                width: 150px; /* Adjust image width */
+                height: 150px; /* Maintain aspect ratio */
+                border-radius: 10px; /* Adjust border radius */
+            }
+            .option{
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 10px;
+            }
+            .end2 {
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 6px;
+                height: 1150px;
+            }
+            body .main {
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 0px;
+                display: flex;
+                flex-direction: column;
+                height:1250px ;
+                background-color: white;
+            }
+            body .old{
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 8px; 
+                height: 600px;
+            }
+            .old h3{
+                font-size: 18px;
+            }
+            
+            .old h4{
+                font-size: 15px;
+            }
+            .old #h4{
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .main .member {
+                width: 80%; 
+                border-radius: 20px;
+                box-shadow: 0 0 10px 5px grey;
+                padding: 10px; /* Add padding */
+            }
+            
+            .member img {
+                width: 180px; /* Adjust image width */
+                height: 180px; /* Maintain aspect ratio */
+                border-radius: 50%; /* Adjust border radius */
+                display: block; /* Ensure the image behaves as a block element */
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust box shadow */
+            }
+            
+            .member a {
+                margin-top: 20px; /* Adjust top margin */
+                text-align: center; /* Center align text horizontally */
+                display: block; /* Convert to a block-level element */
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 800;
+            }
+            
+            .member h6 {
+                text-align: center; /* Center align text horizontally */
+                font-size: 15px; /* Adjust font size */
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                margin-top: 20px; 
+                color: var(--purple);
+            }
+            .end2 .container {
+                margin-top: 10px; 
+                margin-left: 10px;
+                width: 330px;
+                border-radius: 20px;
+            }
+        
+            .end2 .btn-read-more {
+                margin-top: 10px; /* Adjust margin-top */
+            }
+        
+            .end2 p {
+                font-size: 12px; 
+                font-weight: 800;
+            }
+        
+            .end2 .text-img {
+                font-size: 60px; /* Adjust font size */
+            }
+            body .end{
+                width: calc(100% - 40px); /* Adjust width */
+                margin-left: 20px; 
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                background-color: white;
+            }
+            .end .copy {
+                height: 100px;
+                width: 350px;
+                border-radius: 20px;
+  
+        }
              
               .copy h3{
                 font-weight: bold;
