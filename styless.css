@@ -1572,10 +1572,12 @@ margin-left: 50px;
                 text-align: left;
                 margin-left: 10px;
                 text-align: left;
+                  margin-top:5px;
               }
               .copy #p{
                 font-size: 15px;
 margin-left: 50px;
+                  
               }
               .copy img{
                 height: 100px;
